@@ -1,0 +1,4 @@
+service:
+  name: sample-service
+  image: nginx:latest
+  replicas: 2

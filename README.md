@@ -2,8 +2,17 @@
 Python automation for parsing and rollout services
 
 ## Structure
-* clients: wrappers for K8s, AWS, etc.
-* config: config parsers.
-* services: core automation logic.
-* utils: helpers 
-
+```bash
+├── app
+│   ├── clients
+│   ├── config
+│   ├── services
+│   └── utils
+├── cli.py
+├── infra
+│   └── k8s
+├── README.md
+├── requirements.txt
+├── scripts
+└── tests
+````
